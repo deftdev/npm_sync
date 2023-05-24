@@ -1,2 +1,2 @@
 # npm_sync
-Synchronise two or more Nginx Proxy manger
+Synchronise two or more Nginx Proxy manger instances
