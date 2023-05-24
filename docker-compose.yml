@@ -1,0 +1,9 @@
+version: "3"
+services:
+  sync-nginx:
+    build: .
+    container_name: sync-nginx
+    restart: unless-stopped
+    volumes:
+      - ./config:/config
+      - ./log:/log

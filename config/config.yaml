@@ -1,0 +1,17 @@
+interval: 3600 #optional seconds between syncs - default 3600
+
+source:
+  address: http://source.ip:port
+  username: admin@example.com
+  password: changeme
+
+destinations:
+  - address: http://source.ip:port
+    username: admin@example.com
+    password: changeme
+  - address: http://source.ip:port
+    username: admin@example.com
+    password: changeme
+  - address: http://source.ip:port
+    username: admin@example.com
+    password: changeme
